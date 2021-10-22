@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.0.0",
+    "@types/lodash": "^4.14.175",
+    "@types/uuid": "^8.3.1",
+    "nuxt3": "latest"
+  },
+  "dependencies": {
+    "d3": "^7.1.1",
+    "lodash": "^4.17.21",
+    "sass": "^1.43.2",
+    "uuid": "^8.3.2"
+  }
+}
